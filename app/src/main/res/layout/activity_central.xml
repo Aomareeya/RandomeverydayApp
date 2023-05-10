@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CentralActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:gravity="center"
+                android:text="ภาคกลาง"
+                android:textSize="48sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis"
+                app:srcCompat="@drawable/ce1" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis2"
+                app:srcCompat="@drawable/ce2" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis3"
+                app:srcCompat="@drawable/ce3" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis4"
+                app:srcCompat="@drawable/ce4" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis5"
+                app:srcCompat="@drawable/ce5" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis6"
+                app:srcCompat="@drawable/ce6" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="356dp"
+                android:onClick="Synopsis7"
+                app:srcCompat="@drawable/ce7" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:onClick="Synopsis8"
+                app:srcCompat="@drawable/ce8" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis9"
+                app:srcCompat="@drawable/ce9" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis10"
+                app:srcCompat="@drawable/ce10" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis11"
+                app:srcCompat="@drawable/ce11" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis12"
+                app:srcCompat="@drawable/ce12" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis13"
+                app:srcCompat="@drawable/ce13" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis14"
+                app:srcCompat="@drawable/ce14" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis15"
+                app:srcCompat="@drawable/ce15" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis16"
+                app:srcCompat="@drawable/ce16" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis17"
+                app:srcCompat="@drawable/ce17" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis18"
+                app:srcCompat="@drawable/ce18" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:onClick="Synopsis19"
+                app:srcCompat="@drawable/ce19" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="304dp"
+                android:onClick="Synopsis20"
+                app:srcCompat="@drawable/ce20" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
